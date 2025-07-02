@@ -24,6 +24,12 @@
       background: #CD0000;
       color: white;
     }
+    .chat-title {
+      font-weight: bold;
+      font-size: 24px;
+      text-align: center;
+      flex: 1;
+    }
     .chat-box {
       height: 80vh;
       overflow-y: auto;
@@ -76,7 +82,7 @@
 </head>
 <body>
   <div class="chat-header">
-    <div>RedLink</div>
+    <div class="chat-title">RedLink</div>
     <div>
       <span id="username-display"></span>
       <button class="toggle-mode" onclick="toggleMode()">🌓</button>
@@ -147,3 +153,4 @@
   </div>
 </body>
 </html>
+
