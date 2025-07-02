@@ -29,6 +29,5 @@ This is the **frontend** of a real-time global chat application created using pu
 ## 🛠️ Technologies Used
 
 - HTML5 + CSS3 + Vanilla JavaScript
-- [Socket.io Client CDN](https://cdn.socket.io)
 - GitHub Pages (for frontend hosting)
 
