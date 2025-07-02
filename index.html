@@ -12,10 +12,12 @@
       background-color: #f4f4f4;
       transition: background 0.3s, color 0.3s;
     }
-    .dark-mode {                             
+
+    .dark-mode {
       background-color: #121212;
-      color: black;
+      color: white;
     }
+
     .chat-header {
       display: flex;
       justify-content: space-between;
@@ -24,6 +26,7 @@
       background: #CD0000;
       color: white;
     }
+
     .chat-title {
       font-weight: bold;
       font-size: 30px;
@@ -31,6 +34,7 @@
       text-align: center;
       flex: 1;
     }
+
     .chat-box {
       height: 64vh;
       overflow-y: auto;
@@ -38,32 +42,39 @@
       display: flex;
       flex-direction: column;
     }
+
     .message {
       margin: 10px 0;
       padding: 10px;
       border-radius: 10px;
       max-width: 60%;
       word-wrap: break-word;
+      color: black;
     }
+
     .sent {
       align-self: flex-end;
       background: #cce5ff;
       text-align: right;
     }
+
     .received {
       align-self: flex-start;
-      background:#e8e8e8;
+      background: #e8e8e8;
     }
+
     .chat-input {
       display: flex;
       padding: 10px;
       border-top: 1px solid #ccc;
     }
+
     input[type="text"] {
       flex: 1;
       padding: 10px;
       font-size: 16px;
     }
+
     button {
       padding: 10px 15px;
       font-size: 16px;
@@ -72,12 +83,26 @@
       border: none;
       cursor: pointer;
     }
+
     .toggle-mode {
       cursor: pointer;
       background: none;
       color: black;
       border: none;
       font-size: 16px;
+    }
+
+    /* Dark mode overrides */
+    .dark-mode .message {
+      color: black;
+    }
+
+    .dark-mode .sent {
+      background: #90caf9;
+    }
+
+    .dark-mode .received {
+      background: #eeeeee;
     }
   </style>
 </head>
@@ -99,9 +124,9 @@
 
   <script>
     let username = prompt("Enter your name:");
-if (!username || username.trim() === "") {
-  username = "Anonymous";
-}
+    if (!username || username.trim() === "") {
+      username = "Anonymous";
+    }
 
     document.getElementById('username-display').textContent = username;
 
