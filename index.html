@@ -97,11 +97,11 @@
   </div>
 
   <script>
-    let username = localStorage.getItem('username') || '';
-    if (!username) {
-      username = prompt("Enter your name:");
-      localStorage.setItem('username', username);
-    }
+    let username = prompt("Enter your name:");
+if (!username || username.trim() === "") {
+  username = "Anonymous";
+}
+
     document.getElementById('username-display').textContent = username;
 
     const socket = io("https://global-chat-server-4upl.onrender.com"); // Your backend URL
