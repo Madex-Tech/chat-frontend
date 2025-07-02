@@ -98,7 +98,7 @@
     }
     document.getElementById('username-display').textContent = username;
 
-    const socket = io("https://global-chat-server-4upl.onrender.com"); // Replace with your backend URL
+    const socket = io("https://global-chat-server-4upl.onrender.com"); // Your backend URL
 
     const chat = document.getElementById("chat");
 
@@ -131,7 +131,7 @@
       }
     });
 
-       function toggleMode() {
+    function toggleMode() {
       document.body.classList.toggle("dark-mode");
     }
   </script>
