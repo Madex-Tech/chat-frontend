@@ -29,4 +29,6 @@ Finally, this task emphasized the need for performance optimization, error handl
 
 In conclusion, Task 2 gave me a solid foundation in real-time full-stack development. I learned how to build an event-driven architecture using Socket.io, integrate it with Node.js and Express, and create dynamic frontend experiences. The hands-on experience from this task has prepared me for more complex real-time collaborative applications in the future.
 
-
+## Output 
+Click to view the website
+🔗 [https://madex-tech.github.io/chat-frontend/](https://madex-tech.github.io/chat-frontend/)
