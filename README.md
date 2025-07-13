@@ -32,3 +32,6 @@ In conclusion, Task 2 gave me a solid foundation in real-time full-stack develop
 ## Output 
 Click to view the website
 🔗 [https://madex-tech.github.io/chat-frontend/](https://madex-tech.github.io/chat-frontend/)
+
+<img width="1919" height="870" alt="Screenshot 2025-07-13 113125" src="https://github.com/user-attachments/assets/457d455d-abb4-4796-8558-21991f08ffaf" />
+
